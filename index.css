@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
+.App{
+  background-image:url('./sky.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  width: 450px;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  color:white;
+}
+input{
+  position: relative;
+  margin:auto;
+  width: 170px;
+  padding: 5px;
+  display: table;
+}
+.actual-temp{
+  position: relative;
+  margin:auto;
+  width: 400px;
+  padding: 0px;
+  display: table;
+}
+.array-box{
+  position: relative;
+  margin:0;
+  width: 400px;
+  padding: 0px;
+  font-size: 22px;
+}
+#temp{
+  font-size: 40px;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 125px 125px 125px;
+  grid-gap: 8px;
+  list-style-type: none;
+}
